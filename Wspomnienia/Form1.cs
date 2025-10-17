@@ -72,7 +72,7 @@ namespace MemoryGame
             gameTimer = new System.Timers.Timer(1000);
             gameTimer.Elapsed += UpdateTimer;
             gameTimer.AutoReset = true;
-            gameTimer.Start(); //
+            gameTimer.Start(); 
         }
 
         private void UpdateTimer(object sender, ElapsedEventArgs e)
